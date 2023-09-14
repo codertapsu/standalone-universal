@@ -1,0 +1,9 @@
+build
+dist
+.angular
+.vscode
+coverage
+e2e
+node_modules
+**/*.md
+**/*.MD

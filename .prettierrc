@@ -1,0 +1,28 @@
+{
+  "useTabs": false,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["**/*.css", "**/*.scss"],
+      "options": {
+        "bracketSameLine": false,
+        "singleQuote": false,
+        "singleAttributePerLine": true
+      }
+    },
+    {
+      "files": ["**/*.html"],
+      "options": {
+        "bracketSameLine": false,
+        "singleAttributePerLine": true
+      }
+    }
+  ],
+  "semi": true,
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "avoid"
+}
